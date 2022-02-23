@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="classNumber">
+        <item>1502</item>
+        <item>1504</item>
+        <item>1505</item>
+        <item>1507</item>
+    </string-array>
+</resources>

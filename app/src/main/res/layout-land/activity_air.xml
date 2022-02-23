@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="820dp"
+    android:background="#006885"
+    android:orientation="vertical"
+    tools:context=".airActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Air Control"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="Air conditioner"
+            android:textColor="#FFFFFF"
+            android:textIsSelectable="false"
+            android:textSize="30sp" />
+
+        <ToggleButton
+            android:id="@+id/airPowerButton"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0"
+            android:background="@drawable/off"
+            android:textOff="."
+            android:textOn="."
+            android:textSize="1sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0"
+            android:gravity="center_horizontal"
+            android:text="Ventilation"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <ToggleButton
+            android:id="@+id/ventilationButton"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0"
+            android:background="@drawable/off_fan"
+            android:textOff="."
+            android:textOn="."
+            android:textSize="1sp" />
+
+        <Button
+            android:id="@+id/shomeButton"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:background="#FFE5A4"
+            android:text="HOME"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
